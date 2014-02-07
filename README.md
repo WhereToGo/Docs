@@ -4,11 +4,19 @@ Where To Go
 
 API
 
-GET ../events
-список евентов
 
-PUT ../events
-создать евент
+Cписок евентов
+--------------
 
-POST ../events
-изменение евента
+GET <code>../events</code>
+
+GET <code>../events?lat={.....}&&long={...}</code>
+
+Cоздать евент
+--------------
+PUT <code>../events</code>
+
+Изменение евента
+----------------
+POST <code>../events/{id}</code>
+
