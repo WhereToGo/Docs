@@ -9,14 +9,15 @@ http://wtgser.azurewebsites.net/api/
 Users
 --------------
 
+
 GET /api/users/getall
+
 
 GET /api/users/get?id=1
 
+
 POST /api/users/postme   - log in or sign in user
-
 login:...  
-
 pass:...
 
 
