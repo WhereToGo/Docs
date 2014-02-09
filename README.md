@@ -17,8 +17,7 @@ GET /api/users/get?id=1
 
 
 POST /api/users/postme   - log in or sign in user
-login:...  
-pass:...
+*[login, pass]*
 
 
 
@@ -30,8 +29,7 @@ GET /api/events/getall
 GET /api/events/get?id=1
 
 PUT /api/events/put 
-
-title, description, location, user_id, int_id, start_date, end_date
+*[title, description, location, user_id, int_id, start_date, end_date]*
 
 
 
@@ -40,12 +38,10 @@ Tags
 
 GET /api/tags/getall
 
-GET /api/tegs/get?id=1
+GET /api/tags/get?id=1
 
-POST /api/tegs/put
+POST /api/tags/put
+*[name]*
 
-name
-
-POST /api/tegs/subscription
-
-int_id, user_id
+POST /api/tags/subscription
+*[int_id, user_id]*
