@@ -3,20 +3,43 @@ Where To Go
 
 
 API
+http://wtgser.azurewebsites.net/api/
 
 
-Cписок евентов
+Users
 --------------
 
-GET <code>../events</code>
+GET /api/users/getall
 
-GET <code>../events?lat={.....}&&long={...}</code>
+GET /api/users/get?id=1
 
-Cоздать евент
+POST /api/users/postme   - log in or sign in user
+login:...  
+pass:...
+
+
+
+Events
 --------------
-PUT <code>../events</code>
 
-Изменение евента
+GET /api/events/getall
+
+GET /api/events/get?id=1
+
+PUT /api/events/put 
+title, description, location, user_id, int_id, start_date, end_date
+
+
+
+Tags
 ----------------
-POST <code>../events/{id}</code>
 
+GET /api/tags/getall
+
+GET /api/tegs/get?id=1
+
+POST /api/tegs/put
+name
+
+POST /api/tegs/subscription
+int_id, user_id
